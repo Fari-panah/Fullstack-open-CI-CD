@@ -73,5 +73,15 @@ module.exports = [
       'no-console': 'error',
       'react/prop-types': 0
     }
-  }
+  },
+  {
+  files: ['jest.setup.js'],
+  languageOptions: {
+    globals: {
+      require: 'readonly',
+      global: 'readonly',
+    },
+  },
+}
+
 ]
